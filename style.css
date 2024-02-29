@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#corpo #cabeçalho,
+#corpo #rodape,
+#corpo #sugestoes  {
+    width: 100%;
+    float: left;
+}
+
+#corpo #cabecalho #logo,
+#corpo #cabecalho #icone-menu,
+#corpo #cabecalho #busca,
+#corpo #cabecalho #icone-busca,
+#corpo #cabecalho #perfil,
+#corpo #sugestoes .filme {
+    float: left;
+}
+
+
+
+@media only screen and (max-width: 292px) {
+    body{background-color: #000;}
+}
+
+/* smartphone pequeno  */
+@media only screen and (min-width: 292px) and (max-width: 479.99px) {
+
+}
+
+/* smartphone grande */
+@media only screen and (min-width: 480px) and (max-width: 599.99px){
+
+}
+
+/* tablet pequeno */
+@media only screen and (min-width: 600px) and (max-width: 799.99px){
+
+}
+
+/* tablet grande */
+@media only screen and (min-width: 800px) and (max-width: 1199.99px){
+
+}
+
+/* notebook  */
+@media only screen and (min-width: 1200px) and (max-width: 1379.99px){
+
+}
+
+/* desktop */
+@media only screen and (min-width: 1380px){
+    #corpo {
+        float: left;
+        width: 100%;
+    }
+
+    #corpo #cabecalho {
+        background-color: #14112e;
+        height: 80px;
+}
+
+#corpo #cabecalho #logo {
+    height: 50px;
+    width: 150px;
+    background-color: transparent;
+    font-family: sans-serif;
+    font-size: 38px;
+    color: #fff;
+    margin-top: 14px;
+    position: relative;
+    left: 10%;
+    cursor: pointer;
+}
+
+#corpo #cabecalho #icone-menu {
+    height: 50px;
+    margin: 14px 0 0 15%;
+    border-radius: 30% 0 0 30%;
+    background-color: #fff;
+    background-image: url(assets/icons/menu-icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-style: none;
+    width: 60px;
+    cursor: pointer;
+}
+
+#corpo #cabecalho #busca {
+    height: 50px;
+    width: 600px;
+    margin-top: 14px;
+    border-radius: 0;
+    border-style: none;
+    padding: 0 20px;
+    outline: none;
+    font-size: 22px;
+}
+
+#corpo #cabecalho #icone-busca{
+    margin-top: 14px;
+    border-radius: 0 30% 30% 0;
+    height: 50px;
+    width: 60px;
+    background-color: #fff;
+    background-image: url(assets/icons/lupa-icon.png);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    border-style: none;
+    cursor: pointer;
+
+}
+
+
+#corpo #cabecalho #perfil {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: #000;
+    background-image: url(assets/img/profile-img.png);
+    background-size: contain;
+    margin: 14px 0 0 0;
+    position: absolute;
+    right: 10%;
+    cursor: pointer;
+}
+
+#corpo #banner {
+    background-image: url(assets/img/banner-img.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+#corpo #sugestoes {
+    padding-top: 40px;
+    background: linear-gradient(#14112e, #000);
+    height: 500px;
+}
+
+#corpo #sugestoes .filme {
+    background-color: #ff0;
+    margin: 10px;
+    height: 410px;
+    width: 300px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+#corpo #sugestoes #filme1{
+    background-image: url(assets/img/capa-filmes/bastardosinglorios.jpg);
+}
+#corpo #sugestoes #filme2 {
+    background-image: url(assets/img/capa-filmes/deathproof.jpg);
+}
+#corpo #sugestoes #filme3 {
+    background-image: url(assets/img/capa-filmes/djangolivre.jpg);
+}
+#corpo #sugestoes #filme4 {
+    background-image: url(assets/img/capa-filmes/killbill.jpg);
+}
+#corpo #sugestoes #filme5 {
+    background-image: url(assets/img/capa-filmes/umdrinknoinferno.jpg);
+}
+#corpo #sugestoes #filme6 {
+    background-image: url(assets/img/capa-filmes/eraumavezhollywood.jpg);
+}
+
+}
